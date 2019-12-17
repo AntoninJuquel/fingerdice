@@ -17,7 +17,7 @@ image2.setAttribute("src", randomDiceImage2);
 if(dice1===dice2){ //if its a draw
   document.querySelector("h1").textContent = "Draw !";
 }else if(dice1>dice2){ //if player 1 wins
-  document.querySelector("h1").textContent = "Player 1 won";
+  document.querySelector("h1").textContent = "👉 Player 1 won";
 }else if(dice2>dice1) { //if player 2 wins
-  document.querySelector("h1").textContent = "Player 2 won";
+  document.querySelector("h1").textContent = "Player 2 won 👈";
 }
